@@ -1,0 +1,172 @@
+Data report
+"State of code review 2024" is now live
+Read the full report
+Docs
+Guides
+Research
+Help
+Contact sales
+Log in
+Sign up
+Series
+
+Merge queues
+
+Guides by topic
+
+graphite
+stacked diffs
+github
+git
+tools
+CI/CD
+sapling
+code review
+phabricator
+typescript
+gerrit
+merging
+repo configuration
+monorepo
+GitHub Actions
+GitHub Copilot
+How to push code from VS Code to GitHub
+Kenny DuMez
+Kenny DuMez
+Graphite software engineer
+
+Note
+
+This guide explains this concept in vanilla Git. For Graphite documentation, see our CLI docs.
+
+
+Pushing code from Visual Studio Code (VS Code) to GitHub involves several steps that ensure your code is safely uploaded to your GitHub repository. This guide provides detailed instructions on how to push code directly from VS Code to GitHub, utilizing both the graphical user interface (GUI) of VS Code and the integrated terminal.
+
+Setting up your GitHub repository
+Create a new repository on GitHub:
+
+Visit GitHub and sign in.
+Click on the "New" button under the "Repositories" tab.
+Enter your repository details and create the repository.
+Connect your local repository to your GitHub repository:
+
+Open your terminal or command prompt.
+Navigate to your project directory:
+Terminal
+cd path/to/your/project
+
+
+Add the remote repository:
+Terminal
+git remote add origin https://github.com/username/repository.git
+
+
+Verify the remote repository:
+Terminal
+git remote -v
+
+
+How to push code from VS Code to GitHub
+Using the VS Code GUI
+Open your project in VS Code.
+Open the Source Control panel:
+Click on the Source Control icon on the sidebar or press Ctrl+Shift+G.
+Stage your changes:
+Click on the '+' icon next to each changed file to stage files individually, or click on the "Stage All Changes" icon at the top to stage all changes.
+Commit your changes:
+Enter a commit message in the input box at the top of the Source Control panel.
+Press Ctrl+Enter to commit the staged files.
+Push your changes:
+Click on the '...' button at the top of the Source Control panel, then select "Push" from the dropdown menu.
+If you are pushing to a new branch, select "Push to" and enter the branch name.
+Using the VS Code terminal
+Open the integrated terminal in VS Code:
+Use the shortcut Ctrl+` (Control + backtick) or navigate through View -> Terminal.
+Stage your changes:
+Run the command:
+Terminal
+git add .
+
+
+Commit your changes:
+Run the command:
+Terminal
+git commit -m "Your descriptive commit message"
+
+
+Push your changes:
+To push to the main branch, run:
+Terminal
+git push origin main
+
+
+To push to another branch, replace main with your branch name.
+Additional tips
+Check your current branch:
+Before pushing, ensure you are on the correct branch using:
+Terminal
+git branch
+
+
+Resolve conflicts:
+If there are conflicts between your local and remote repositories, VS Code will alert you to resolve them before you can successfully push. For more information see this guide on resolving merge conflicts in Git.
+Pull before you push:
+It's a good practice to pull the latest changes from your remote repository to your local repository before pushing new changes:
+Terminal
+git pull origin main
+
+
+For more information see the official VS Code documentation.
+
+Related guides
+Code review comment types
+Graphite's guide to code review comments lays the foundation for a constructive, collaborative, and ...
+
+How to push to GitHub
+Learn the various ways to push your code from your local repository to GitHub using the command line...
+
+How to push tags to GitHub
+Learn the essentials of pushing tags to GitHub, including detailed steps and examples on using Git c...
+
+Last modified 2 months ago
+
+Become a Git expert in 5 min. with our free cheat-sheet
+Your email
+Download for free
+
+On this page
+Setting up your GitHub repository
+How to push code from VS Code to GitHub
+Additional tips
+Git gud
+"It's the first Git workflow I've used that actually feels good."
+–@robboclancy
+Learn more
+Graphite
+Git stacked on GitHub
+Stacked pull requests are easier to read, easier to write, and easier to manage.
+Teams that stack ship better software, faster.
+
+Learn more
+Get started for free
+Or install our CLI.
+Product Screenshot 1
+Product Screenshot 2
+© 2024
+Product
+Features
+Pricing
+Docs
+Customers
+Company
+Blog
+Careers
+Contact us
+Resources
+Community
+Privacy policy
+Terms of service
+Stacking workflow
+Developers
+Status
+GitHub
